@@ -1,0 +1,41 @@
+@charset "utf-8";
+#border{
+	border:1px solid #ccc;
+	width: 1080px;
+	height: 600px;
+	position: absolute;
+}
+#main{
+	width: 400px;
+	height:200px;
+	background-color: #ccc;
+	position: absolute;
+	top: 200px;
+	left: 320px;	
+}
+#top{
+	width:0px;
+	height:0px;
+	border-width:50px;
+	border-style:solid;
+	border-color:transparent  transparent #fc0 transparent;
+	background-color:transparent;
+	transform:rotate(-45deg);
+	border-radius:50%;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+#bottom{
+	width:0px;
+	height:0px;
+	border-width:50px;
+	border-style:solid;
+	border-color:#fc0  transparent transparent transparent;
+	background-color:transparent;
+	transform:rotate(-45deg);
+	border-radius:50%;
+	position: absolute;
+	top: 150px;
+	left: 350px;
+}
