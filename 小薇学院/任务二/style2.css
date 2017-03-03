@@ -2,6 +2,7 @@
 
 body,h1,ul,h2,p,figure{
 	margin:0px;
+	padding: 20px;
 }
 ul{
 	list-style: outside none none;
