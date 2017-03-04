@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+body,header,ul{
+	margin:0 auto;
+}
+body{
+	background-color: #eee;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: outside none none;
+}
+header{
+	width: 100%;
+	height: 61px;
+	background-color: #333;
+}
+header h1{
+	width: 210px;
+	height: 61px;
+	background-image: url(./baidu.png);
+	margin:0 auto;
+	float: left;
+	text-indent: -9999px;
+}
+header ul{
+	width: 660px;
+	height: 61px;
+	line-height: 61px;
+	color: #eee;
+	float: right;
+}
+header li{
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	margin: 0 20px 0px 20px;
+}
+header li>a{
+	color: #eee;
+}
+header .active a,header a:hover{
+	color: #aaa;
+	display: block;
+}
+nav,div{
+	background-color: #fff;
+	margin: 20px;
+	border:1px solid #000;
+}
+div{
+	float: left;
+	width: 70%;
+}
+
+nav{
+	position: absolute;
+	top: 61px;
+	right: 10px;
+	width: 500px;
+	height: 600px;
+}
+nav h2{
+	text-align: center;
+}
+nav div{
+	float: none;
+	width: auto;
+	border-style: none;
+	margin: 20px;
+	padding:5px;
+}
+nav label{
+	position: absolute;
+	right:300px;
+}
+nav input[type="text"],nav input[type="password"]{
+	position: absolute;
+	right:150px;
+}
+nav .r1{
+	position: absolute;
+	left:230px;
+}
+nav .r2{
+	position: absolute;
+	left:280px;
+}
+nav .male{
+	position: absolute;
+	left: 210px;
+}
+nav .female{
+	position: absolute;
+	left: 260px;
+}
+nav p{
+	margin: 25px 0 0 0;
+	font-size: 15px;
+	color: #999;
+	text-align: center;
+}
+nav select{
+	position: absolute;
+	left: 210px;
+}
+nav textarea{
+	position: absolute;
+	left: 120px;
+}
+nav input[type="submit"]{
+	width: 400px;
+	height: 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: 60px;
+	bottom:10px;
+	font-size: 24px;
+	color: #eee;
+	letter-spacing: 40px;
+	font-weight: bold;
+	background-color: #0084FF;
+	text-indent: 30px;
+}
+table{
+	border: 1px solid #000;
+	width: 70%;
+}
+.bt{
+	background-color: #333;
+	color: #eee;
+	font-weight: bold;
+}
+.zj{
+	background-color: #eee;
+	font-weight: bold;
+}
+.zj1{
+	text-align: center;
+}
