@@ -1,0 +1,143 @@
+@charset "utf-8";
+body,div{
+	margin: 0px;
+}
+.container{
+	 margin: 0px auto;
+	 padding: 0 15px;
+}
+.row{
+	margin: 0px -15px;
+}
+.col-sm-1,.col-sm-2,.col-sm-4,.col-sm-3,.col-sm-6,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-6,.col-xs-8{
+	padding: 0 15px;
+}
+.content{
+	line-height: 98px;
+	text-align: center;
+	color: #a45f4b;
+	font-family: 微软雅黑;
+	font-size: 20px;
+	width: 100%;
+	height: 98px;
+	background-color: #eee;
+}
+@media(max-width: 767px){
+	.container{
+		width: 400px;
+	}
+	.row{
+		width: 430px;
+		background-color: #aaa;
+	}
+	.col-xs-12{
+		width: 398px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-xs-2{
+		width: 39px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-xs-3{
+		width: 75px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-xs-6{
+		width: 183px;
+		height: 98px;
+		float: left; 
+		border: 1px solid red;
+	}
+	.col-xs-8{
+		width: 254px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;	
+	}	
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.container{
+		width: 700px;
+	}
+	.row{
+		width: 730px;
+		height: 100px;
+		background-color: #aaa;
+	}
+	.col-sm-1{
+		width: 28px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-sm-2{
+		width: 89px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-sm-4{
+		width: 211px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-sm-3{
+		width: 150px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;	
+	}
+	.col-sm-6{
+		width: 333px;
+		height: 98px;
+		float: left; 
+		border: 1px solid red;
+	}
+}
+@media (min-width: 992px) {
+	.container{
+		width: 1250px;
+	}
+	.row{
+		width: 1280px;
+		height: 100px;
+		background-color: #aaa;
+	}
+	.col-sm-1{
+		width: 74px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-sm-2{
+		width: 181px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-sm-4{
+		width: 394px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.col-sm-3{
+		width: 288px;
+		height: 98px;
+		float: left;
+		border: 1px solid red;	
+	}
+	.col-sm-6{
+		width: 608px;
+		height: 98px;
+		float: left; 
+		border: 1px solid red;
+	}
+}

@@ -285,6 +285,11 @@ body,ul,h2,p,a,figure,img,figcaption{
 	left: 415px;
 	cursor: pointer;
 }
+#city .center .province option:hover{
+	appearance:none;
+	-webkit-appearance:none;
+	background-color: red;
+}
 #city .center .city{
 	width: 220px;
 	height: 40px;
