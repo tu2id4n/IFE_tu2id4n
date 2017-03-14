@@ -24,84 +24,85 @@ body,div{
 }
 @media(max-width: 767px){
 	.container{
-		width: 400px;
+		width: 80%;
 	}
 	.row{
-		width: 430px;
-		background-color: #aaa;
+		width: calc(100% + 30px);
 	}
 	.col-xs-12{
-		width: 398px;
+		width: calc(100% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;
 	}
 	.col-xs-2{
-		width: 39px;
+		width:calc(16.6667% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;
 	}
 	.col-xs-3{
-		width: 75px;
+		width: calc(25% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;
 	}
 	.col-xs-6{
-		width: 183px;
+		width: calc(50% - 32px);
 		height: 98px;
 		float: left; 
 		border: 1px solid red;
 	}
 	.col-xs-8{
-		width: 254px;
+		width: calc(66.6667% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;	
 	}	
 }
-@media(min-width: 768px) and (max-width: 991px){
+@media(min-width: 768px){
 	.container{
-		width: 700px;
+		width: 80%;
+
 	}
 	.row{
-		width: 730px;
+		width: calc(100% + 30px);
 		height: 100px;
-		background-color: #aaa;
+		
+
 	}
 	.col-sm-1{
-		width: 28px;
+		width: calc(8.3333% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;
 	}
 	.col-sm-2{
-		width: 89px;
+		width: calc(16.6667% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;
 	}
 	.col-sm-4{
-		width: 211px;
+		width: calc(33.3333% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;
 	}
 	.col-sm-3{
-		width: 150px;
+		width:calc(25% - 32px);
 		height: 98px;
 		float: left;
 		border: 1px solid red;	
 	}
 	.col-sm-6{
-		width: 333px;
+		width: calc(50% - 32px);
 		height: 98px;
 		float: left; 
 		border: 1px solid red;
 	}
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
 	.container{
 		width: 1250px;
 	}
@@ -140,4 +141,4 @@ body,div{
 		float: left; 
 		border: 1px solid red;
 	}
-}
+}*/
