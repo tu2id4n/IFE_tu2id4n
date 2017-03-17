@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body,header,div,span,img{
+	margin: 0;
+}
+#header{
+	width: 100%;
+	height: 55px;
+	background-color: #228abf;
+}
+#header .center{
+	width: 92%;
+	height: 55px;
+	margin: 0 auto;
+	background-position: center;
+}
+#header .center .logo{
+	width: 35px;
+	height: 35px;
+	margin: 10px 0;
+	float: left;
+	background-color: #228abf;
+}
+#header .center .login{
+	height: 16px;
+	float: right;
+	margin: 19.5px;
+	cursor: pointer;
+}
+#header .center .login span{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	font-family: 黑体;
+	height: 16px;
+	line-height: 16px;
+	
+	float: right;
+	
+}
+#header .center .search{
+	margin: 0;
+	width: 314px;
+	height: 28px;
+	border: 1px solid #adadad;
+	float: right;
+	background: url("search.png") no-repeat 20px #fff;
+	border-radius: 15px;
+	margin: 11.5px;
+	text-indent: 50px;
+	font-size: 16px;
+	color: #999;
+	font-family: 黑体;
+}
