@@ -1,11 +1,16 @@
 @charset "utf-8";
 body{
 	margin: 0;
+	
+}
+div{
+	margin-bottom: 20px;
 }
 .s1{
 	width: 148px;
 	height: 118px;
 	border: 1px solid #f00;
+
 }
 .s2{
 	width: 148px;
@@ -22,8 +27,19 @@ body{
 	height: 198px;
 	border: 1px solid #00f;
 }
+#flex{
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap:wrap;
+		justify-content: space-between;
+		padding: 20px;
+	}
 @media (min-width: 640px) {
-	.s1{
+#flex{
+	align-items: center;
+}
+	/*.s1{
 		float: left;
 		margin: 40px calc(16.6667% - 106.6667px) 20px 20px; 
 	}
@@ -38,26 +54,13 @@ body{
 	.s4{
 		float: right;
 		margin: 20px 20px 20px calc(16.6667% - 106.6667px);
-	}
+	}*/
 }
 @media(max-width: 640px){
-
-	.s1{
-		float: right;
-		margin: 20px; 
-	}
-	.s2{
-		float: right;
-		margin: 20px;
-	}
-	.s3{
-		float: right;
-		margin: 20px;
-	}
-	.s4{
-		float: left;
-		margin: 20px;
-		
-	}
-	
+#flex{
+	align-items: flex-start;
+}
+#flex .s4{
+	order: -1;
+}
 }
