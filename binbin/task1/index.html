@@ -5,8 +5,9 @@
 	<title>task-1</title>
 </head>
 <body>
-	<label>请输入北京今天空气质量：<input type="text" id="aqi-input">
-	</label>
+	<label>请输入北京今天空气质量：</label>
+	<input type="text" id="aqi-input">
+	
 	<button id="button">确认填写</button>
 
 	<div>
@@ -18,8 +19,8 @@
 			// 给button绑定一个点击事件
 			// 在事件处理函数中获取aqi-input输入的值
 			// 并显示在aqi-display中
-			var button=document.querySelector("button");
-			button.addEventListener("click",onClickAdd,false);
+			var button=document.querySelector("#button");
+				button.addEventListener("click",onClickAdd,false);
 			var input=document.getElementById('aqi-input'),
 		 		display=document.getElementById('aqi-display');
 			function onClickAdd(){
